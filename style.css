@@ -383,7 +383,8 @@ a {
 .menu-card {
     background-color: #fff;
     width: 80%;
-    margin: -30rem auto;
+    /* margin: -30rem auto; */
+    margin: -10rem auto;
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     padding-bottom: 5rem;
@@ -437,5 +438,39 @@ a {
     font-size: 1.5rem;
     color: #afafaf;
     margin-bottom: 2rem;
+    text-align: center;
+}
+
+.customers{
+    margin-top: 50rem;
+}
+
+.carousel img {
+    margin: 0 auto;
+}
+
+.slick-prev::before,
+.slick-next::before {
+    color: #bc9321 !important;
+    font-size: 3rem;
+}
+
+.slick-prev {
+    transform: translateX(-3rem);
+}
+
+.customers {
+    padding-bottom: 20rem;
+}
+
+.customers h3 {
+    margin-bottom: 3rem;
+}
+
+.comment-paragraph {
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: #afafaf;
+    margin-top: 3rem;
     text-align: center;
 }
